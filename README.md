@@ -1,4 +1,5 @@
-PlacementPilot: Academic & Placement Tracking System
+PlacementPilot: Academic & Placement Tracking System.
+
 📌 Project Overview
 PlacementPilot is a Java-based command-line application designed to bridge the gap between student academic records and corporate recruitment criteria. During the placement season, students often struggle to track which companies they are eligible for based on shifting CGPA cutoffs and backlog constraints.
 
@@ -53,8 +54,11 @@ Bash
 java PlacementPilot
 
 📂 Project Structure
+
 Plaintext
+
 PlacementPilot/
+
 ├── src/
 │   ├── User.java          # Abstract Base Class
 │   ├── Student.java       # Subclass for student-specific data
@@ -62,6 +66,7 @@ PlacementPilot/
 │   └── PlacementPilot.java # Main Driver Class & File I/O
 ├── README.md              # Project Documentation
 └── eligibility_report.txt  # Generated output file (post-run)
+
 
 
 📝 Author
